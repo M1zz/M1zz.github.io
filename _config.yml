@@ -22,7 +22,7 @@ name                     : "Hyunho Lee"
 description              : "Data Analytics && Musical Actor"
 url                      : https://m1zz.github.io
 baseurl                  : ""
-repository               : "M1zz/m1zz.github.io"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -82,7 +82,7 @@ naver_site_verification  :
 twitter:
   username               :
 facebook:
-  username               : https://www.facebook.com/hyunho.lee.0705
+  username               :
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
