@@ -11,18 +11,18 @@
  # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
   # theme                  : "minimal-mistakes-jekyll"
- remote_theme           : "mmistakes/minimal-mistakes"
+ remote_theme : mmistakes/minimal-mistakes
  minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
   # Site Settings
  locale                   : "en-US"
- title                    : "M1zz DevLog"
+ title                    : "Site Title"
  title_separator          : "-"
  name                     : "Your Name"
  description              : "An amazing website."
  url                      : https://m1zz.github.io
  baseurl                  : ""
- repository               : "M1zz/m1zz.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
  teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
  # breadcrumbs            : false # true, false (default)
  words_per_minute         : 200
@@ -95,10 +95,10 @@
 
   # Analytics
  analytics:
-   provider               : #"google-universal" # false (default), "google", "google-universal", "custom"
+   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
    google:
-     tracking_id          : #"UA-112668750-1"
-     anonymize_ip         : #true # true, false (default)
+     tracking_id          : "UA-112668750-1"
+     anonymize_ip         : # true, false (default)
 
 
   # Site Author
@@ -107,10 +107,11 @@
    avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
    bio              : "Data Analytics && Musical Actor"
    location         : "PangYo"
+   email            : "mizzking75@gmail.com"
    links:
      - label: "Email"
        icon: "fas fa-fw fa-envelope-square"
-       url: "mizzking75@gmail.com"
+       # url: mailto:your.name@email.com
      - label: "Website"
        icon: "fas fa-fw fa-link"
        # url: "https://your-website.com"
@@ -119,13 +120,13 @@
        # url: "https://twitter.com/"
      - label: "Facebook"
        icon: "fab fa-fw fa-facebook-square"
-       url: "https://www.facebook.com/hyunho.lee.0705"
+       # url: "https://facebook.com/"
      - label: "GitHub"
        icon: "fab fa-fw fa-github"
        url: "https://github.com/M1zz"
      - label: "Instagram"
        icon: "fab fa-fw fa-instagram"
-       url: "https://www.instagram.com/im____leeo/"
+       # url: "https://instagram.com/"
 
   # Site Footer
  footer:
@@ -135,10 +136,10 @@
        # url:
      - label: "Facebook"
        icon: "fab fa-fw fa-facebook-square"
-       url: "https://www.facebook.com/hyunho.lee.0705"
+       # url:
      - label: "GitHub"
        icon: "fab fa-fw fa-github"
-       url: "https://github.com/M1zz"
+       # url:
      - label: "GitLab"
        icon: "fab fa-fw fa-gitlab"
        # url:
@@ -147,7 +148,7 @@
        # url:
      - label: "Instagram"
        icon: "fab fa-fw fa-instagram"
-       url: "https://www.instagram.com/im____leeo/"
+       # url:
 
 
   # Reading Files
@@ -286,6 +287,6 @@
        layout: single
        author_profile: true
        read_time: true
-       comments: true
+       comments: # true
        share: true
        related: true
