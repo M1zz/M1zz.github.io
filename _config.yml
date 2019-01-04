@@ -95,19 +95,19 @@
 
   # Analytics
  analytics:
-   provider               : false # false (default), "google", "google-universal", "custom"
+   provider               : "google" # false (default), "google", "google-universal", "custom"
    google:
-     tracking_id          :
+     tracking_id          : "UA-112668750-1"
      anonymize_ip         : # true, false (default)
 
 
   # Site Author
  author:
-   name             : "Your Name"
+   name             : "Hyunho Lee"
    avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-   bio              : "I am an amazing person."
-   location         : "Somewhere"
-   email            :
+   bio              : "Data Analytics && Musical Actor"
+   location         : "PangYo"
+   email            : "mizzking75@gmail.com"
    links:
      - label: "Email"
        icon: "fas fa-fw fa-envelope-square"
