@@ -11,17 +11,17 @@
  # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
   # theme                  : "minimal-mistakes-jekyll"
- # remote_theme           : "mmistakes/minimal-mistakes"
+ remote_theme           : "mmistakes/minimal-mistakes"
  minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
   # Site Settings
  locale                   : "en-US"
- title                    : "Site Title"
+ title                    : "M1zz DevLog"
  title_separator          : "-"
  name                     : "Your Name"
  description              : "An amazing website."
  url                      : https://m1zz.github.io
- baseurl                  : ""
+ baseurl                  : "/blog"
  repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
  teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
  # breadcrumbs            : false # true, false (default)
@@ -95,10 +95,10 @@
 
   # Analytics
  analytics:
-   provider               : "google" # false (default), "google", "google-universal", "custom"
+   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
    google:
      tracking_id          : "UA-112668750-1"
-     anonymize_ip         : # true, false (default)
+     anonymize_ip         : true # true, false (default)
 
 
   # Site Author
@@ -290,4 +290,3 @@
        comments: # true
        share: true
        related: true
- remote_theme : mmistakes/minimal-mistakes
