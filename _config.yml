@@ -11,7 +11,7 @@
  # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
   # theme                  : "minimal-mistakes-jekyll"
- # remote_theme           : "mmistakes/minimal-mistakes"
+ remote_theme : mmistakes/minimal-mistakes
  minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
   # Site Settings
@@ -120,13 +120,13 @@
        # url: "https://twitter.com/"
      - label: "Facebook"
        icon: "fab fa-fw fa-facebook-square"
-       # url: "https://facebook.com/"
+       url: "https://www.facebook.com/hyunho.lee.0705"
      - label: "GitHub"
        icon: "fab fa-fw fa-github"
-       # url: "https://github.com/"
+       url: "https://github.com/M1zz"
      - label: "Instagram"
        icon: "fab fa-fw fa-instagram"
-       # url: "https://instagram.com/"
+       url: "https://www.instagram.com/im____leeo/"
 
   # Site Footer
  footer:
@@ -290,4 +290,9 @@
        comments: # true
        share: true
        related: true
- remote_theme : mmistakes/minimal-mistakes
+   - scope:
+       path: "_pages"
+       type: pages
+     values:
+       layout: single
+       author_profile: true
