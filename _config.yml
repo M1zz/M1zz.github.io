@@ -104,7 +104,7 @@
   # Site Author
  author:
    name             : "Hyunho Lee"
-   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+   avatar           : "/assets/images/bio-photo.jpg"
    bio              : "Data Analytics && Musical Actor"
    location         : "PangYo"
    email            : "mizzking75@gmail.com"
