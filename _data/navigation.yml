@@ -7,8 +7,8 @@ main:
 
 
 
-# 블로그 만들기 포스트 사이드바
-sidebar-blogging:
+# 개발 관련 포스
+sidebar-review:
   - title: "블로그를 만들자!"
     children:
     - title: "github.io 블로그 구축하기"
@@ -26,14 +26,14 @@ sidebar-blogging:
         url: "/blogging/config-yml/"
       - title: "블로그에서 사용하는 문법 정리"
         url: "/blogging/Elements/"
-        
+
 # 워게임 포스트 사이드바
-sidebar-wargame:
+sidebar-devlog:
   - title: "Web"
     children:
     - title: "webhacking.kr"
       url: "/tags/#webhackinag-kr"
-      
+
   - title: "System"
     children:
     - title: "pwnable.kr"

@@ -1,5 +1,5 @@
 ---
-title: "Post about devlog"
+title: "Post about Devlog"
 layout: archive
 permalink: /categories/devlog
 author_profile: true
