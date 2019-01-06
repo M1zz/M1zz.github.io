@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Hyunho Lee"
-  avatar           : "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile.jpg"
   bio              : "Data Analytics && Musical Actor"
   location         : "PangYo"
   email            : "mizzking75@gmail.com"
@@ -115,7 +115,7 @@ author:
   facebook         : "hyunho.lee.0705"
   foursquare       :
   github           : "M1zz"
-  gitlab           : "imreplay"
+  gitlab           :
   google_plus      :
   keybase          :
   instagram        : "im____leeo"
@@ -325,12 +325,12 @@ defaults:
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
-safe: False
-lsi: False
-username: imreplay
-repo: blog
-branch: master
-relative_source: ../blog/
-destination: ../posts
-production_url:  https://imreplay.com
-source_url:  https://github.com/imreplay/blog/
+#safe: False
+#lsi: False
+#username: imreplay
+#repo: blog
+#branch: master
+#relative_source: ../blog/
+#destination: ../posts
+#production_url:  https://imreplay.com
+#source_url:  https://github.com/imreplay/blog/
