@@ -1,14 +1,13 @@
 ---
-title: "Post about Blogging"
+title: "Post about devlog"
 layout: archive
-permalink: /categories/blogging
+permalink: /categories/devlog
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.blogging | sort:"date" %}
+{% assign posts = site.categories.devlog | sort:"date" %}
 
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
 {% endfor %}
-
