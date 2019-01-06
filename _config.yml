@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Hyunho Lee"
-  avatar           : "/assets/images/profile.jpg"
+  avatar           : "/assets/img/profile.jpg"
   bio              : "Data Analytics && Musical Actor"
   location         : "PangYo"
   email            : "mizzking75@gmail.com"
