@@ -1,12 +1,12 @@
 ---
-title: "Post about Devlog"
+title: "Post about Review"
 layout: archive
-permalink: /categories/devlog
+permalink: /categories/review
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.devlog | sort:"date" %}
+{% assign posts = site.categories.review | sort:"date" %}
 
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
