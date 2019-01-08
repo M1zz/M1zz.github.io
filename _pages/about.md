@@ -25,12 +25,14 @@ toc: true
 
 
 {% gist imreplay/a612c451ee371f3748ccbdfda8df2576 %}
- 
+
 
 ## Education
- - 목포대학교 정보보호학과 상황기반 모바일 인증 알고리즘 연구실 학부연구생(2015~)
- - 목포대학교 정보보호학과 정보보호 동아리 SecuMaster 부회장 (2016)
- - 대학정보보호동아리연합회 KUCIS 호남권 운영진(2016)
+ - [충남대학교 컴퓨터공학과 정보보호 동아리 ARGOS 회장(2015)](http://www.argos.or.kr/index.php?mid=history)
+ - 충남대학교 컴퓨터공학과 졸엄 (2016)
+ - 충남대학교 석사 졸업 (2018)
+ - [피트니스 트래커를 이용한 대학생 활동 데이터 수집 및 분석](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07115887)
+ - [웨어러블 디바이스를 활용한 상용게임 보상체계 강화](http://dcollection.cnu.ac.kr/public_resource/pdf/000000075216_20190108093707.pdf)
 
 ## What I did
  - 카카오톡 API 이용 **[목포대학교 정보봇](http://pf.kakao.com/_RdDHM)** 제작[^bot] <a href="javascript:void plusFriendChat('_RdDHM')">
@@ -61,7 +63,7 @@ toc: true
   * 책읽고 요약정리
 
 <div class="fb-comments" data-href="https://imreplay.com/about" data-numposts="5"></div>
-  
+
 ##### 각주[Footnote]
 
 [^wargame]: 아직 어떤 문제를 풀지, 어떤 분야를 풀지 고민중 그냥 다하는것도 재밌을거같다
@@ -70,5 +72,3 @@ toc: true
 [^bot]: 2년동안 운영했는데 얻은건 Django개발방법 약간과 파이썬으로 ~~간단한~~ 챗봇만드는 능력정도..?
 [^lab]: gogs 활용 / 같이쓰려고 만든건데 나 혼자 다쓴다 전역하면 도메인 새로 사서 같이 써야지!
 [^fromis9]: jekyll블로그 만드는데 가장 많은 공부를 할 수 있었던 페이지, 만들었지만 관리가...
-
-
