@@ -5,7 +5,6 @@ excerpt: "About Me"
 search: true
 ---
 
-
 ## Education
  - [충남대학교 컴퓨터공학과 정보보호 동아리 ARGOS 회장(2015)](http://www.argos.or.kr/index.php?mid=history)
  - 충남대학교 컴퓨터공학과 졸엄 (2016)
