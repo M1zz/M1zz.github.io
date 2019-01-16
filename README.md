@@ -4,6 +4,6 @@ M1zz가 오늘 새로 배운 것을 다음의 규칙으로 commit 합니다. [th
 
 ## 작성 규칙
 - 문서 생성은 [GFM (Github Flavored Markdown)](https://help.github.com/articles/github-flavored-markdown/) 을 사용한다. (확장자 `.md`)
-- 언어나 기술명으로 폴더를 만든다. (root에 문서를 만들지 않는다.)
-- 파일명은 영어로.
+- 언어나 기술명으로 카테고리를 만든다. (최상위 폴더에 문서를 만들지 않는다.)
+- 파일명은 영어로. 제목은 언어무관
 - 작성규칙은 좀 더 고민해서
