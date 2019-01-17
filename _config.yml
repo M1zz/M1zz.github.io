@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "M1zz Devlog"
+title                    : "M1zz의 개발일기"
 title_separator          : "-"
 name                     : "M1zz"
 description              : "M1zz's blog for devlog."
