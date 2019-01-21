@@ -1,12 +1,12 @@
 ---
-title: "Post about Dailycoding"
+title: "Post about Design"
 layout: archive
-permalink: /categories/dailycoding
+permalink: /categories/design
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Dailycoding | sort:"date" %}
+{% assign posts = site.categories.Design | sort:"date" %}
 
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
