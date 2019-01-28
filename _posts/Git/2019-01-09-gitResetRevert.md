@@ -1,9 +1,9 @@
 ---
 title: "git의 reset과 revert의 차이점"
 categories:
-  - Devlog
+  - Git
 tags:
-  - git
+  - github
 ---
 
 Git의 Reset과 Revert의 차이
