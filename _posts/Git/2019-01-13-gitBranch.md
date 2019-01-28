@@ -1,9 +1,9 @@
 ---
 title: "Github Branch와 Issue 사용방법"
 categories:
-  - Devlog
+  - Git
 tags:
-  - git
+  - github
   - branch
   - issue
 ---
