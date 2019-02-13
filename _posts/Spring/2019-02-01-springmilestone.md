@@ -20,7 +20,7 @@ tags:
 
 아래는 공부해야 할 스프링의 가이드를 나열한다.
 
-[Building a RESTful Web Service]()  
+[Building a RESTful Web Service](https://m1zz.github.io/spring/spring1/)  
 ~~Learn how to create a RESTful web service with Spring.~~
 
 Scheduling Tasks  
