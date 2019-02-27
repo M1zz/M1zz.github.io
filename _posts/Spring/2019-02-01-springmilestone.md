@@ -35,8 +35,8 @@ Learn how to build a Java project with Gradle.
 Building Java Projects with Maven  
 Learn how to build a Java project with Maven.
 
-Accessing Relational Data using JDBC with Spring  
-Learn how to access relational data with Spring.
+[Accessing Relational Data using JDBC with Spring](https://m1zz.github.io/spring/spring2/)  
+~~Learn how to access relational data with Spring.~~
 
 Uploading Files  
 Learn how to build a Spring application that accepts multi-part file uploads.
@@ -173,8 +173,8 @@ Dynamically support services coming up and going down without interrupting the c
  Testing the Web Layer  
 Learn how to test Spring Boot applications and MVC controllers.
 
- Accessing data with MySQL  
-Learn how to set up and manage user accounts on MySQL and how to configure Spring Boot to connect to it at runtime.
+ [Accessing data with MySQL](https://m1zz.github.io/spring/spring3/)  
+~~Learn how to set up and manage user accounts on MySQL and how to configure Spring Boot to connect to it at runtime.~~
 
  Creating a Multi Module Project  
 Learn how to build a library and package it for consumption in a Spring Boot application
