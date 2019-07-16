@@ -6,7 +6,7 @@ author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Devlog | sort:"date" %}
+{% assign posts = site.categories.Devlog | sort:"date" | reverse %}
 
 {% for post in posts %}
   {% include archive-single.html type=page.entries_layout %}
