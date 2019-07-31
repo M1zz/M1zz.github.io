@@ -19,8 +19,6 @@
       {% include search/lunr-search-scripts.html %}
     {%- when "google" -%}
       {% include search/google-search-scripts.html %}
-    {%- when "algolia" -%}
-      {% include search/algolia-search-scripts.html %}
   {%- endcase -%}
 {% endif %}
 
@@ -41,7 +39,7 @@
     //info_id = '_RdDHM';
 
     // 플러스친구 친구추가 버튼을 생성합니다.
-    
+
     function addPlusFriend(my_id) {
       Kakao.PlusFriend.addFriend({
         plusFriendId: my_id // 플러스친구 홈 URL에 명시된 id로 설정합니다.
@@ -53,7 +51,7 @@
       });
     }
   //]]>
-  
+
 </script>
 
 <script>
