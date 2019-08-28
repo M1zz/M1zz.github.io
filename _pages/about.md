@@ -14,6 +14,7 @@ search: true
 
 ## What I did
  - 블로그 개설
+ - [2019 파이콘 준비위원회](https://www.pycon.kr/contribute/staff)
 
 ## History
 * **19.01.02 블로그 개설**
