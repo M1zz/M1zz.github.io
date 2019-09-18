@@ -10,7 +10,7 @@ search: true
  - 충남대학교 컴퓨터공학과 졸엄 (2016)
  - 충남대학교 석사 졸업 (2018)
  - [피트니스 트래커를 이용한 대학생 활동 데이터 수집 및 분석](http://www.dbpia.co.kr/Journal/ArticleDetail/NODE07115887)
- - [웨어러블 디바이스를 활용한 상용게임 보상체계 강화](http://dcollection.cnu.ac.kr/public_resource/pdf/000000075216_20190108093707.pdf)
+ - [웨어러블 디바이스를 활용한 상용게임 보상체계 강화](http://dcollection.cnu.ac.kr/srch/srchDetail/000000075216)
 
 ## What I did
  - 블로그 개설
