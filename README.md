@@ -16,3 +16,4 @@ Django
 DataScience
 
 매주 수요일에 한번에 몰아서 포스팅
+.
