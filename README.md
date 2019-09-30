@@ -11,4 +11,9 @@ M1zz가 오늘 새로 배운 것을 다음의 규칙으로 commit 합니다. [th
 
 ## 참고할 만한 블로그 리스트
 
+ELK
+Django
+DataScience
+
 매주 수요일에 한번에 몰아서 포스팅
+.
