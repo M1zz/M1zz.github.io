@@ -30,29 +30,28 @@ tags:
 
 ### 작성 코드 1
 ```
-def solution(heights):
-    heights_list = [p for p in enumerate(heights)]
-    heights_temp = []
-
-    for item_num in range(1,len(heights)):
-        for part in reversed(heights_list[:item_num]):
-            if heights_list[item_num][1] < part[1]:
-                heights_temp.append(part[0]+1)
-                break
-        if len(heights_temp) != len(heights_list[:item_num]):
-            heights_temp.append(0)
-    heights_temp.insert(0,0)
-    return heights_temp
+import math
+def solution(progresses, speeds):
+    answer = []
+    releases = []
+    releases = [math.ceil((100-progress)/speed) for progress, speed in zip(progresses, speeds)]
+    point = 0
+    for idx in range(len(releases)):
+        if releases[point] < releases[idx]: 
+            answer.append(idx-point)
+            point = idx
+    answer.append(len(releases)-point)
+    return answer
 ```
 
 ### 더 나은 코드 1
 ```
-def solution(heights):
-    ans = [0] * len(h)
-    for i in range(len(h)-1, 0, -1):
-        for j in range(i-1, -1, -1):
-            if h[i] < h[j]:
-                ans[i] = j+1
-                break
-    return ans
+def solution(progresses, speeds):
+    Q=[]
+    for p, s in zip(progresses, speeds):
+        if len(Q)==0 or Q[-1][0]<-((p-100)//s):
+            Q.append([-((p-100)//s),1])
+        else:
+            Q[-1][1]+=1
+    return [q[1] for q in Q]
 ```
