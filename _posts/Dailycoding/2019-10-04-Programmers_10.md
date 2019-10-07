@@ -4,7 +4,7 @@ categories:
   - Dailycoding
 tags:
   - algorithms
-  - queue
+  - heap
 ---
 
 # 문제
