@@ -32,10 +32,28 @@ array의 2번째부터 5번째까지 자르면 [5, 2, 6, 3]입니다.
 
 ### 작성 코드 1
 ```
-
+def solution(array, commands):
+    answer = []
+    for item in commands :
+        temp = []
+        temp = array[item[0]-1:item[1]]
+        temp.sort()
+        answer.append(temp[item[2]-1])
+    return answer
 ```
 
 ### 더 나은 코드 1
 ```
+def solution(array, commands):
+    return list(map(lambda x:sorted(array[x[0]-1:x[1]])[x[2]-1], commands))
+```
 
+### 더 나은 코드 2
+```
+def solution(array, commands):
+    answer = []
+    for command in commands:
+        i,j,k = command
+        answer.append(list(sorted(array[i-1:j]))[k-1])
+    return answer
 ```
