@@ -31,13 +31,43 @@ dates[i]에는 i번째 공급 가능일이 들어있으며, supplies[i]에는 da
 
 ### 작성 코드 1
 ```
+import heapq
 
+def solution(stock, dates, supplies, k):
+    count = 0
+    index = 0
+    heap = []
+    while stock < k:
+        # 넣을 수 있는 값 중 가장 큰 값 찾기
+        for i in range(index,len(dates)):
+            if stock - dates[i] >= 0:
+                heapq.heappush(heap,(-supplies[i],supplies[i]))
+                index += 1
+            else:
+                break
+        # 공급받기
+        stock += heapq.heappop(heap)[1]
+        count += 1
+    return count
 ```
 
-### 작성 코드 2
-```
-
-```
 ### 더 나은 코드 1
 ```
+import heapq
+
+def solution(stock, dates, supplies, k):
+    answer, start = 0, 0
+    plan = []
+    n = len(dates)
+
+    while stock < k:
+        for i in range(start, n):
+            if dates[i] <= stock:
+                heapq.heappush(plan, -supplies[i])
+            else:
+                start = i
+                break
+        answer += 1
+        stock += -heapq.heappop(plan)
+    return answer
 ```
