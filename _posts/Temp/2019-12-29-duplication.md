@@ -1,5 +1,5 @@
 ---
-title: "ElasticSearch Master 선출 과정"
+title: "이중화의 의미와 정의"
 categories:
   - Temp
 tags:
