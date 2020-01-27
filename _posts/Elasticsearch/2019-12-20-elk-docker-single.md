@@ -1,10 +1,11 @@
 ---
 title: "docker-compose 로 Elastic Cliuster 구성"
 categories:
-  - Temp
+  - Elasticsearch
 tags:
-  - ElasticSearch
+  - es
   - Docker
+  - Compose
 ---
 
 도커가 설치되어 있다는 전제하에 설명하겠습니다.
